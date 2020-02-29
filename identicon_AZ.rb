@@ -61,6 +61,3 @@ class Identicon
       @image.save(path)
     end
 end
-
-f = Identicon.new('qwerty')
-f.generate
