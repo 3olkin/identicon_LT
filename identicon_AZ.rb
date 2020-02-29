@@ -5,7 +5,7 @@ Size = 250
 class Identicon
   attr_accessor :user_name, :path
 
-  def initialize(user_name, path = "C:/Programming/TestTaskFromLT/" )
+  def initialize(user_name, path = "C:/Programming/identicon_LT/" )
     @user_name = user_name
     @path = path
   end
@@ -61,3 +61,6 @@ class Identicon
       @image.save(path)
     end
 end
+
+f = Identicon.new('qwerty')
+f.generate
