@@ -1,5 +1,6 @@
 require 'zlib'
 require 'chunky_png'
+
 Size = 250
 Grid = 5
 DSquare = Size / Grid
