@@ -61,6 +61,3 @@ class Identicon
       bitrow
     end
 end
-
-f = Identicon.new('test', "C:/Programming/identicon_LT/Examples")
-f.generate
