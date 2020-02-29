@@ -16,7 +16,6 @@ class Identicon
   def generate
     identicon_draw(image_arr(@user_name), @color)
     @image.save(@path+"/identicon_"+@id+".png")
-    puts 'yes'
   end
 
   private
